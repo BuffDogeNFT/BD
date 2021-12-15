@@ -112,7 +112,7 @@ export const NavBar = () => {
                         <span></span>
                         <img alt="img" src={openseaIcon}></img>
                     </a>
-                   <button className="navBar__walletBtn" onClick={walletIntegration.verifyWalletConnection}>CONNECT WALLET</button>
+                    <button className="navBar__walletBtn" onClick={walletIntegration.verifyWalletConnection}>CONNECT WALLET</button>
                 </div>
             </div>
         </header>
