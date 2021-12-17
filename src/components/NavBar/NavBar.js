@@ -111,7 +111,7 @@ export const NavBar = () => {
                         <span></span>
                         <img alt="img" src={openseaIcon}></img>
                     </a>
-                    <button className="navBar__walletBtn" </button>
+                    <button className="navBar__walletBtn"> </button>
                 </div>
             </div>
         </header>
