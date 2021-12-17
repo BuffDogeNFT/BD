@@ -6,7 +6,6 @@ import intro_video from '../../assets/videos/web main page_1 (1).mp4';
 import mobile_video from '../../assets/videos/Web-Phone.png';
 import bottom from '../../assets/img/introBottom.svg';
 
-import walletIntegration from '../walletIntegration';
 
 export const Intro = () => {
     useEffect(() => {
@@ -37,7 +36,7 @@ export const Intro = () => {
                 </div>
             </div>
 
-            <div className="intro__mintBtn" onClick={walletIntegration.mintButtonOnClick}>
+            <div className="intro__mintBtn">
                 <button>MINT</button>
             </div>
 
