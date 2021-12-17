@@ -3,7 +3,7 @@ import {useEffect} from 'react';
 import './Intro.scss';
 
 import intro_video from '../../assets/videos/web main page_1 (1).mp4';
-import mobile_video from '../../assets/videos/Web-Phone.png4';
+import mobile_video from '../../assets/videos/Web-Phone.png';
 import bottom from '../../assets/img/introBottom.svg';
 
 import walletIntegration from '../walletIntegration';
