@@ -2,16 +2,13 @@ import {useEffect} from 'react';
 
 import './Intro.scss';
 
-import intro_video from '../../assets/videos/web main page_1 (1).mp4';
-import mobile_video from '../../assets/videos/Web-Phone.png';
+import intro_video from '../../assets/videos/web main page.mp4';
+import mobile_video from '../../assets/videos/phone first page.mp4';
 import bottom from '../../assets/img/introBottom.svg';
-
 
 export const Intro = () => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
-
-        walletIntegration.initialize();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -43,12 +40,6 @@ export const Intro = () => {
             <div className="intro__bottom">
                 <img alt="pic" src={bottom}></img>
             </div>
-
-            <div className="nft-modal">
-                <div className="nft-modal-overlay nft-js-modal-overlay"></div>
-                <div className="nft-modal-container"></div>
-            </div>
-
         </section>
     )
 }
